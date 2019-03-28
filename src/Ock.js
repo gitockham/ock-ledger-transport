@@ -24,7 +24,7 @@ import type Transport from "@ledgerhq/hw-transport";
  * OCKHAM API
  *
  * @example
- * import Ock from "@arkecosystem/ock-ledger-transport";
+ * import Ock from "@gitockham/ock-ledger-transport";
  * const ock = new Ock(transport)
  */
 export default class Ock {
@@ -44,7 +44,7 @@ export default class Ock {
   }
 
   /**
-   * get Ock address for a given BIP 32 path.
+   * get OCKHAM address for a given BIP 32 path.
    * @param path a path in BIP 32 format
    * @return an object with a publicKey, address and (optionally) chainCode
    * @example

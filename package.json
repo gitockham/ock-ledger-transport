@@ -1,28 +1,28 @@
 {
   "name": "@arkecosystem/ledger-transport",
   "version": "0.1.0",
-  "description": "Ledger Hardware Wallet Ark Application API",
+  "description": "Ledger Hardware Wallet OCKHAM Application API",
   "keywords": [
     "Ledger",
     "LedgerWallet",
-    "Ark Ecosystem",
-    "ark",
+    "OCKHAM Consulting",
+    "ock",
     "NanoS",
     "Hardware Wallet"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/arkecosystem/ark-ledger-transport"
+    "url": "https://github.com/gitockham/ock-ledger-transport"
   },
   "bugs": {
-    "url": "https://github.com/arkecosystem/ark-ledger-transport/issues"
+    "url": "https://github.com/gitockham/ock-ledger-transport/issues"
   },
-  "homepage": "https://github.com/arkecosystem/ark-ledger-transport",
+  "homepage": "https://github.com/gitockham/ock-ledger-transport",
   "publishConfig": {
     "access": "public"
   },
-  "main": "lib/Ark.js",
-  "author": "Alex Barnsley <alex@ark.io>",
+  "main": "lib/Ock.js",
+  "author": "Luc Talarico <ceo@ockham.consulting>",
   "license": "Apache-2.0",
   "dependencies": {
     "@ledgerhq/hw-transport": "^4.7.3",
